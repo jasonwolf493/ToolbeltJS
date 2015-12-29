@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>testing</title>
+		<?php include '/includes/php/footer.php'?>
+		<?php include '/includes/php/nav.php'?>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<script src="/includes/js/toolbelt.js"></script>
+		<script src="jquery.transit.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Testing a modal">
+		<meta name="keywords" content="Modal">
+		<meta name="author" content="Jason">
+		
+	</head>
+	<body>
+		<?php nav("1");?>
+		
+		
+		
+
+		<div id="container" style="width:70%; height:100%; margin:auto;">
+
+			<div>
+				<h1 class="orange">Styles Page h1</h1>
+				<h2 class="orange">Styles Page h2</h2>
+				<h3 class="orange">Styles Page h3</h3>
+				<a class="toggleButton"><strong>Open Modal</strong></a>
+				<br><br>
+				<img class="fancyIMG" width="562px" height="280px" src="includes/images/img1.jpg"></img>
+
+			
+			</div>
+			<div class="sliderButton">Additional Information<p class="showMore">Show more</p><div class="slider">Slider</div></div>
+			
+			<p id="text">Cras ultricies ligula <strong>Some Strong Text</strong> Sed porttitor <strike>Strike Through </strike>Proin eget<em> emphasized</em> Mauor accu <u>Underline</u> msan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorperDonec velit neque, auctor sit amet aliquam vel, ullamrta.</p>
+			
+			
+		</div>				
+		
+			
+			
+			
+			
+		<br><br><br>
+
+		
+			<div id="modalBox">
+				<img class="innerToggleButton" src="includes/images/modalButton.png"></img>
+				<p> ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli</p>
+		
+			</div>
+		<div id="bgDiv"></div>
+		<?php footer();?>
+
+	</body>
+
+	
+			
+		
+
+</html>

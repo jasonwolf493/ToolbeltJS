@@ -1,0 +1,292 @@
+/*Normal styles*/
+html{
+	background-color:white;
+	position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+	min-height: 100%;
+}
+body{
+	background-color:white;
+	min-height: 100%;
+	
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.5;
+}
+@font-face {
+    font-family: adamCG;
+    src: url(includes/fonts/ADAMCG.otf);
+}
+a{
+	font-family: 'Open Sans', sans-serif;
+	cursor:pointer;
+}
+#container{
+	max-width:1150px;
+}
+u{
+	font-style:underline;
+}
+em{
+	font-style:italic;
+}
+strong{
+	font-weight:800;
+}
+h1{
+	font-size:3em;
+	font-family: 'adamCG', sans-serif;
+	font-weight:light;
+	margin:10px 0 10px 0;
+}
+h2{
+	font-size:2.5em;
+	font-family: 'adamCG', sans-serif;
+	font-weight:light;
+	margin:10px 0 10px 0;
+}
+h3{
+	font-size:1.5em;
+	font-family: 'adamCG', sans-serif;
+	font-weight:light;
+	margin:10px 0 10px 0;
+}
+img{
+	position:relative;
+    max-width: 100%;
+    height: auto;
+	
+	
+}
+/*---------------------Form Styles-----------------------*/
+input[type=submit]{
+	color:white;
+	width:100px;
+	height:30px;
+	background-color:green;
+	border:none;
+	font-variant:small-caps;
+	font-size:1.25em;
+	padding-bottom:5px;
+}
+input[type=text]{
+	width:250px;
+	height:30px;
+	padding-left:10px;
+
+}
+input[type=email]{
+	width:250px;
+	height:30px;
+	padding-left:10px;
+
+}
+
+
+
+/*----------------Custom style Colors---------------------*/
+
+.orange{
+	color:#cc8800;
+}
+
+
+/*---------------------Gallery--------------------*/
+figcaption{
+	display:none;
+}
+figure img{
+	margin:5px;
+}
+.my-gallery {
+    display: inline-block;
+    width: 420px;
+}
+@media screen and (max-width: 420px) {
+    .my-gallery{
+		width:75%;
+		
+		
+    }
+}
+
+/*--------------- BEGIN MODAL---------------------*/
+#bgDiv{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.70);
+	left:0;
+	top:0;
+	display:none;
+	z-index:60;
+	
+}
+
+
+
+
+#modalBox{
+	display: inline-block;
+	padding:20px;
+	width:85%;
+	height:85%;
+	background-color:rgb(255,255,255);
+	opacity:0;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	max-width: 800px;
+	top:-50px;
+	/*left:100px;*/
+	vertical-align:middle;
+	z-index: 999;
+	border-radius:8px;
+}
+.opacity{
+	background-color:rgba(0,0,0,0.5);
+}
+.toggleButton{
+	
+}
+.innerToggleButton{
+	margin-left:100%;
+	/*text-align:right;*/
+	position:relative;
+	/*left:0;*/
+	top:-40px;
+
+}
+@media screen and (max-width: 840px) {
+    #modalBox{
+		width:75%;
+		margin-right:25px;
+		
+    }
+}
+
+
+
+
+
+
+/*Begin Nav Here*/
+.nav{
+	background-color:#333;
+	width:100%;
+	height:55px;
+	margin-bottom:20px;
+}
+.active{
+	background-color:#cc8800;
+}
+.nav a{
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	text-decoration:none;
+	padding-top:18px;
+	text-align:center;
+	float:left;
+	display:block;
+	rgba:0,0,0,0;
+	height:37px;
+	width:25%;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav a:hover{
+	background-color:#1a1a1a;
+}
+.nav nav{
+	margin:auto;
+	width:70%;
+	max-width:1150px;
+	padding-left:15%;
+	padding-right:15%;
+	
+}
+.mobileNav{
+	display:none;
+}
+@media screen and (max-width: 750px) {
+	.mobileNav{
+		z-index:100;
+		width:100px;
+		display:block;
+	}
+	div.mobileNav {
+		display:none;
+		z-index:100;
+		position:absolute;
+		left:-100;
+	}
+	.mobileNav {
+		height:100%;
+		background-color:#333;
+	}
+	div.nav{
+		margin-bottom:0px;
+	}
+	.nav img{
+		position:absolute;
+		left:15px;
+		height: 25;
+		width: auto;
+		margin-top: 15px;
+		
+	}
+	.nav nav a{
+		display:none;
+	}
+	.mobileNav a{
+		text-decoration:none;
+		padding:15px;
+		display:inline-block;
+		width:70px;
+		color:white;
+	}
+	p.showMore{
+		font-size:0.45em;
+	}
+}
+
+
+
+
+
+/*slider*/
+.sliderButton{
+	box-shadow:5px 3px 10px #a1a1a1;
+	background-color:#cc8800;
+	padding:5px;
+	margin:10px;
+	width:auto;
+	color:white;
+	border-radius:8px;
+}
+.slider{
+	font-family: 'Open Sans', sans-serif;
+	color:black;
+	background-color:#fff;
+	border-style: solid;
+    border-color: gray;
+	border-width:1px;
+	margin-top:5px;
+	display:none;
+	padding:5px;
+	border-radius: 0 0 8px 8px;
+}
+.showMore{
+	font-size:0.75em;
+	color:white;
+	text-shadow: 2px 2px 10px #1a1a1a; 
+	float:right;
+}
+
+/*FancyIMG*/
+.fancyIMG{
+	border:3px solid white;
+	box-shadow:0 0 10px #a1a1a1;
+}
