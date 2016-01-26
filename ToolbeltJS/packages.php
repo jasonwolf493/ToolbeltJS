@@ -4,10 +4,12 @@
 		<?php include '/includes/php/footer.php'?>
 		<?php include '/includes/php/nav.php'?>
 		<?php include '/includes/php/contact.php'?>
+		<?php include '/includes/php/headerimg.php'?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		
 		<script src="jquery.transit.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
@@ -19,11 +21,14 @@
 		
 	</head>
 	<body>
+
+		
 		<?php nav("2");?>
 
 		
 		
 
+		<?php  headerImg("..\includes/images/headerImg2.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
 		
 
@@ -86,7 +91,7 @@
 			<input type="submit" name="submit" value="submit"><br><br>
 		</form>
 		-->
-		<?php contactForm();?>
+		<?php requestForm();?>
 		
 		
 		

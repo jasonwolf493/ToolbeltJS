@@ -24,6 +24,7 @@ a{
 }
 #container{
 	max-width:1150px;
+	margin-top:20px;
 }
 u{
 	font-style:underline;
@@ -99,16 +100,44 @@ figcaption{
 figure img{
 	margin:5px;
 }
+.small{
+	width:160px;
+	float:right;
+}
+.large{
+	float:left; 
+	height:160px;
+}
 .my-gallery {
     display: inline-block;
-    width: 420px;
+    width: 425px;
 }
 @media screen and (max-width: 420px) {
     .my-gallery{
+		display:block;
 		width:75%;
-		
+		margin:auto;
 		
     }
+	figure img{
+		max-height:100%;
+		margin-top:5px;
+		margin-right:auto;
+		margin-bottom:5px;
+		margin-left:auto;
+		display:block;
+		
+		float:none;
+	}	
+	
+	.small{
+		width:160px;
+		float:none;
+	}
+	.large{
+		float:none; 
+		height:auto;
+	}	
 }
 
 /*--------------- BEGIN MODAL---------------------*/
@@ -178,7 +207,6 @@ figure img{
 	background-color:#333;
 	width:100%;
 	height:55px;
-	margin-bottom:20px;
 }
 .active{
 	background-color:#cc8800;

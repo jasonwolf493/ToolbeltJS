@@ -1,9 +1,10 @@
 <html>
 	<head>
-		<title>testing</title>
+		<title>Home Page | Testing Site</title>
 		<?php include '/includes/php/footer.php'?>
 		<?php include '/includes/php/nav.php'?>
 		<?php include '/includes/php/contact.php'?>
+		<?php include '/includes/php/headerimg.php'?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
@@ -22,8 +23,8 @@
 		<?php nav("1");?>
 
 		
-		
-
+		<!-- 1900x325 recc -->
+		<?php  headerImg("..\includes/images/headerImg.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
 		
 
@@ -31,7 +32,7 @@
 		
 		
 
-		<?php contactForm();?>
+		
 		
 		
 		

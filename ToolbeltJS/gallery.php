@@ -4,6 +4,7 @@
 		<?php include '/includes/php/footer.php'?>
 		<?php include '/includes/php/nav.php'?>
 		<?php include '/includes/php/contact.php'?>
+		<?php include '/includes/php/headerimg.php'?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
@@ -24,6 +25,7 @@
 		
 		
 
+		<?php  headerImg("..\includes/images/headerImg3.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
 		<h1 class="orange">Gallery</h1>
 
@@ -57,7 +59,7 @@
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="https://farm4.staticflickr.com/3894/15008518202_c265dfa55f_h.jpg" itemprop="contentUrl" data-size="2048x1365">
-          <img src="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_m.jpg" itemprop="thumbnail" alt="Image description" style="max-height:160px;float:right;"/>
+          <img src="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_m.jpg" itemprop="thumbnail" alt="Image description"  class="small"/>
       </a>
                                           <figcaption itemprop="caption description">Image caption  1</figcaption>
                                           
@@ -65,7 +67,7 @@
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="https://farm6.staticflickr.com/5591/15008867125_b61960af01_h.jpg" itemprop="contentUrl" data-size="964x1024">
-          <img src="https://farm6.staticflickr.com/5591/15008867125_68a8ed88cc_m.jpg" itemprop="thumbnail" alt="Image description" style=" float:left;"/>
+          <img src="https://farm6.staticflickr.com/5591/15008867125_68a8ed88cc_m.jpg" itemprop="thumbnail" alt="Image description" style=" float:left;" class="large"/>
       </a>
       <figcaption itemprop="caption description">Image caption 2</figcaption>
     </figure>
@@ -73,14 +75,14 @@
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-          <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" style=" float:left;"/>
+          <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" style=" float:left;" class="large"/>
       </a>
       <figcaption itemprop="caption description">Image caption 3</figcaption>
     </figure>
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" style="max-width:160px; float:right; height:158px;" />
+          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" class="small" style="" />
       </a>
       <figcaption itemprop="caption description">Image caption 4</figcaption>
     </figure>
