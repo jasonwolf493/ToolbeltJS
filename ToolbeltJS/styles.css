@@ -241,7 +241,7 @@ figure img{
 @media screen and (max-width: 750px) {
 	.mobileNav{
 		z-index:100;
-		width:100px;
+		width:200px;
 		display:block;
 	}
 	div.mobileNav {
@@ -272,7 +272,7 @@ figure img{
 		text-decoration:none;
 		padding:15px;
 		display:inline-block;
-		width:70px;
+		width:170px;
 		color:white;
 	}
 	p.showMore{
@@ -286,6 +286,7 @@ figure img{
 
 /*slider*/
 .sliderButton{
+	height: auto;
 	box-shadow:5px 3px 10px #a1a1a1;
 	background-color:#cc8800;
 	padding:5px;
@@ -295,14 +296,17 @@ figure img{
 	border-radius:8px;
 }
 .slider{
+
+	overflow: hidden;
 	font-family: 'Open Sans', sans-serif;
+	height:auto;
 	color:black;
 	background-color:#fff;
 	border-style: solid;
     border-color: gray;
 	border-width:1px;
 	margin-top:5px;
-	display:none;
+	display: block;
 	padding:5px;
 	border-radius: 0 0 8px 8px;
 }

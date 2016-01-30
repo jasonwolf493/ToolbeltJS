@@ -1,15 +1,16 @@
 <html>
 	<head>
 		<title>testing</title>
-		<?php include '/includes/php/footer.php'?>
-		<?php include '/includes/php/nav.php'?>
-		<?php include '/includes/php/contact.php'?>
-		<?php include '/includes/php/headerimg.php'?>
+		<?php include 'includes/php/footer.php'?>
+		<?php include 'includes/php/nav.php'?>
+		<?php include 'includes/php/contact.php'?>
+		<?php include 'includes/php/headerimg.php'?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 		<script src="jquery.transit.min.js"></script>
+		<script src="includes/js/toolbelt.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<meta charset="UTF-8">
@@ -125,7 +126,7 @@
 				<a class="toggleButton"><strong>Open Modal</strong></a>
 			
 
-			<div class="sliderButton">Additional Information<p class="showMore">Show more</p><div class="slider">Slider</div></div>
+			<div class="sliderButton" >Additional Information<p class="showMore">Show more</p><div class="slider">Slider</div></div>
 			
 			<p id="text">Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec sollicitudin molestie m porta.</p>
 			
@@ -288,20 +289,35 @@
 			
 			
 			//SLIDER
-			$(".slider").transition({scale: 0.0 }, 'fast');
-			sliderOpen = false;
-			$(".sliderButton").click(function(){
-				if(sliderOpen == false){
-					$(this).find(".slider").css("display","block");
-					$(this).find(".slider").transition({scale: 1.0 }, 'fast');
-					sliderOpen = true;
-				}else{
-					$(".slider").transition({scale: 0.0 }, 'fast', function(){$(".slider").css("display","none");});
-					$(this).find(".slider").transition({scale: 0.0 }, 'fast', function(){$(this).find(".slider").css("display","none");});
-					sliderOpen = false;
-				}		
+			$(".sliderButton").each(function () {
+
+				$(this).find(".slider").data('height', $(this).height() - 26);
+				console.log($(this).find(".slider").data('height'));
+				$(this).find(".slider").css("display", "none");
 			});
-			
+			//SLIDER
+			//var height = $(".slider").height();
+			//console.log(height);
+			//$(".slider").transition({height: 0 }, 'fast');
+			sliderOpen = false;
+			//$(this).data('height', $(this).height());
+			//$(".sliderButton").click(slider());
+			$(".sliderButton").click(function () {
+				if (sliderOpen == false) {
+					$(this).find(".slider").css("display", "block");
+
+					$(this).find(".slider").transition({height: $(this).find(".slider").data('height')}, 'slow');
+					sliderOpen = true;
+				} else {
+					$(".slider").transition({height: 0.0}, 'fast', function () {
+						$(".slider").css("display", "none");
+					});
+					$(this).find(".slider").transition({height: 0.0}, 'fast', function () {
+						$(this).find(".slider").css("display", "none");
+					});
+					sliderOpen = false;
+				}
+			});
 			
 			
 			
