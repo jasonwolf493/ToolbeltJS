@@ -5,26 +5,50 @@
     function test(){console.log("importing function worked");}
 
 
-    function mobileNav() {
-        mobileNavOpen = false;
-        $("img.mobileNav").click(function () {
-            if (mobileNavOpen == false) {
+function mobileNav(){
+    mobileNavOpen = false;
+
+
+
+
+    //GESTURE WORK
+    //if its mobile size
+    if(window.innerWidth <= 750){
+
+        $(document).on("swiperight",function(){
+            console.log("swipedright");
+            if(mobileNavOpen == false){
+
                 $("div.mobileNav").css("display", "block");
-                $("div.mobileNav").transition({x: +100}, "slow", function () {
-                });
-                mobileNavOpen = true;
-            } else {
-                $("div.mobileNav").transition({x: -100}, "slow", function () {
-                    $("div.mobileNav").css("display", "none");
-                });
+                $("div.mobileNav").transition({x: +100}, "slow", function(){mobileNavOpen = true;})
 
-                mobileNavOpen = false;
+            }else{}
+        });
+        $(document).on("swipeleft",function(){
+            console.log("swipedleft");
+            if(mobileNavOpen == false){
+            }else{
+                $("div.mobileNav").transition({x: -100}, "slow", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
+
             }
+        });
 
-        })
+
     }
+    $("img.mobileNav").click(function(){
+        if(mobileNavOpen == false){
+            $("div.mobileNav").css("display", "block");
+            $("div.mobileNav").transition({x: +100}, "slow", function(){mobileNavOpen = true;})
 
-    mobileNav();
+        }else{
+            $("div.mobileNav").transition({x: -100}, "slow", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
+
+
+        }
+
+    })
+}
+mobileNav();
 
 
     bodyHeight = $("body").css("height");
@@ -107,35 +131,38 @@
 
 
     //SLIDER
-$(".sliderButton").each(function () {
+function slider(){
+    $(".sliderButton").each(function () {
 
-    $(this).find(".slider").data('height', $(this).height() - 26);
-    console.log($(this).find(".slider").data('height'));
-    $(this).find(".slider").css("display", "none");
-});
-//SLIDER
-//var height = $(".slider").height();
-//console.log(height);
-//$(".slider").transition({height: 0 }, 'fast');
-sliderOpen = false;
-//$(this).data('height', $(this).height());
-//$(".sliderButton").click(slider());
-$(".sliderButton").click(function () {
-    if (sliderOpen == false) {
-        $(this).find(".slider").css("display", "block");
+        $(this).find(".slider").data('height', $(this).height() - 26);
+        console.log($(this).find(".slider").data('height'));
+        $(this).find(".slider").css("display", "none");
+    });
+    //SLIDER
+    //var height = $(".slider").height();
+    //console.log(height);
+    //$(".slider").transition({height: 0 }, 'fast');
+    sliderOpen = false;
+    //$(this).data('height', $(this).height());
+    //$(".sliderButton").click(slider());
+    $(".sliderButton").click(function () {
+        if (sliderOpen == false) {
+            $(this).find(".slider").css("display", "block");
 
-        $(this).find(".slider").transition({height: $(this).find(".slider").data('height')}, 'slow');
-        sliderOpen = true;
-    } else {
-        $(".slider").transition({height: 0.0}, 'fast', function () {
-            $(".slider").css("display", "none");
-        });
-        $(this).find(".slider").transition({height: 0.0}, 'fast', function () {
-            $(this).find(".slider").css("display", "none");
-        });
-        sliderOpen = false;
-    }
-});
+            $(this).find(".slider").transition({height: $(this).find(".slider").data('height')}, 'slow');
+            sliderOpen = true;
+        } else {
+            $(".slider").transition({height: 0.0}, 'fast', function () {
+                $(".slider").css("display", "none");
+            });
+            $(this).find(".slider").transition({height: 0.0}, 'fast', function () {
+                $(this).find(".slider").css("display", "none");
+            });
+            sliderOpen = false;
+        }
+    });
+}
+slider();
 
 
     //CREATE THE MODAL FUNCTION

@@ -85,74 +85,9 @@
         bodyHeight = $("body").css("height");
         $("#bgDiv").css("height", bodyHeight);
 
-        //FANCY IMG
-
-
+        //modules
         fancyIMG();
-        /*VERSION 1.0*/
-        /*
-         notSet = true;
-         $("#fancyIMG").hover(function(){
-         $(this).clearQueue();
-         if(notSet == true){
-         originalWidth = $(this).width();
-         originalHeight = $(this).height();
-         notSet = false;
-         }
-
-         var extraWidth = Math.round(originalWidth+originalWidth*0.25);
-         var extraHeight = Math.round(originalHeight+originalHeight*0.25);
-         console.log("Width: " + extraWidth);
-         console.log("Height: " + extraHeight);
-         $(this).transition({
-         height: extraHeight,
-         width: extraWidth}, "fast")
-         },function(){
-         console.log("Width: " + originalWidth);
-         console.log("Height: " + originalHeight);
-         $(this).transition({
-         height: originalHeight,
-         width: originalWidth}, "fast")
-         });
-
-         */
-
-
-        $(".sliderButton").each(function () {
-
-            $(this).find(".slider").data('height', $(this).height() - 26);
-            console.log($(this).find(".slider").data('height'));
-            $(this).find(".slider").css("display", "none");
-        });
-        //SLIDER
-        //var height = $(".slider").height();
-        //console.log(height);
-        //$(".slider").transition({height: 0 }, 'fast');
-        sliderOpen = false;
-        //$(this).data('height', $(this).height());
-        //$(".sliderButton").click(slider());
-        $(".sliderButton").click(function () {
-            if (sliderOpen == false) {
-                $(this).find(".slider").css("display", "block");
-
-                $(this).find(".slider").transition({height: $(this).find(".slider").data('height')}, 'slow');
-                sliderOpen = true;
-            } else {
-                $(".slider").transition({height: 0.0}, 'fast', function () {
-                    $(".slider").css("display", "none");
-                });
-                $(this).find(".slider").transition({height: 0.0}, 'fast', function () {
-                    $(this).find(".slider").css("display", "none");
-                });
-                sliderOpen = false;
-            }
-        });
-
-
-        //CREATE THE MODAL FUNCTION
-
-
-        //-------------------------------------------------- CALL THE MODAL FUNCTION HERE --------------------------------------------------------
+        slider();
         modal();
 
 
