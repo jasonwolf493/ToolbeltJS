@@ -80,6 +80,29 @@
 
 
         mobileNav();
+        //var height = $(".slider").height();
+        //console.log(height);
+        //$(".slider").transition({height: 0 }, 'fast');
+        sliderOpen = false;
+        //$(this).data('height', $(this).height());
+        //$(".sliderButton").click(slider());
+        $(".sliderButton").click(function () {
+            if (sliderOpen == false) {
+
+                $(this).find(".slider").css("display", "block");
+
+                $(this).find(".slider").transition({height: $(this).find(".slider").data('height')}, 'slow');
+                sliderOpen = true;
+            } else {
+                $(".slider").transition({height: 0.0}, 'slow', function () {
+                    $(".slider").css("display", "none");
+                });
+                $(this).find(".slider").transition({height: 0.0}, 'slow', function () {
+                    $(this).find(".slider").css("display", "none");
+                });
+                sliderOpen = false;
+            }
+        });
 
 
         bodyHeight = $("body").css("height");
