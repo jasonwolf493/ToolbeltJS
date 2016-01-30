@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02b79380-9ac4-4302-ab9d-3cf35a9be4e8" name="toolbelt" url="http://localhost">
+        <fileTransfer mountedRoot="$PROJECT_DIR$/ToolbeltJS" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

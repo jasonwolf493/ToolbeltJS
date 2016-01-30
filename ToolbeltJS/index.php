@@ -28,7 +28,7 @@
 
 <!-- 1900x325 recc -->
 <?php headerImg("..\includes/images/headerImg.jpg") ?>
-<div id="container" style="width:70%; margin:auto;">
+<div id="container" style="width:70%; margin:auto;"> 
 
 
     <div>
