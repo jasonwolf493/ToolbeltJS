@@ -23,12 +23,14 @@
 </head>
 <body>
 <script type="text/javascript">test();</script>
+
+
 <?php nav("1"); ?>
 
 
 <!-- 1900x325 recc -->
-<?php headerImg("..\includes/images/headerImg.jpg") ?>
-<div id="container" style="width:70%; margin:auto;"> 
+<?php //headerImg("..\includes/images/headerImg.jpg") ?>
+<div id="container" style="width:70%; margin:auto;">
 
 
     <div>

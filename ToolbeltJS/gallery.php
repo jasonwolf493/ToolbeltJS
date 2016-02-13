@@ -22,8 +22,6 @@
 	<body>
 		<?php nav("3");?>
 
-		
-		
 
 		<?php  headerImg("..\includes/images/headerImg3.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">

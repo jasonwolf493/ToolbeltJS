@@ -1,6 +1,6 @@
 <?php 
 	
-	function nav($active){
+	function oldNav($active){
 		echo '
 		<div class="nav">
 			<nav>
@@ -25,5 +25,54 @@
 		</div>
 		';
 
+	}
+
+
+
+
+	function nav($active){
+		echo'
+
+<ul class="nav">
+    <li>
+        <a href="index.php" '; if($active=="1"){echo'class="active"';}else{echo'class="navButton"';};echo'>Home</a>
+        <ul class="childContainer" >
+            <li><a class="navChild" style="float: none;" href="#">Ratites</a></li>
+            <li><a class="navChild" style="float: none;" href="#">Fowl</a></li>
+            <li><a class="navChild" style="float: none;" href="#">Neoaves</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="packages.php" '; if($active=="2"){echo'class="active"';}else{echo'class="navButton"';};echo'>Packages</a>
+        <ul class="childContainer">
+            <li><a class="navChild" href="#">Monotremes</a></li>
+            <li><a class="navChild" href="#">Marsupials</a></li>
+            <li><a class="navChild" href="#">Placentals</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="gallery.php" '; if($active=="3"){echo'class="active"';}else{echo'class="navButton"';};echo'>Gallery</a>
+        <ul class="childContainer" >
+            <li><a class="navChild" href="#">Monotremes</a></li>
+            <li><a class="navChild" href="#">Marsupials</a></li>
+            <li><a class="navChild" href="#">Placentals</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="contact-us.php" '; if($active=="4"){echo'class="active"';}else{echo'class="navButton"';};echo'>Contact Us</a>
+        <ul class="childContainer" >
+            <li><a class="navChild" href="#">Monotremes</a></li>
+            <li><a class="navChild" href="#">Marsupials</a></li>
+            <li><a class="navChild" href="#">Placentals</a></li>
+        </ul>
+    </li>
+    <!-- etc. -->
+</ul>
+<script>
+    console.log($("body").width() *.25);
+    $(".childContainer").innerWidth($("body").width() *.25);
+    $(".childContainer").css("left",-$("body").width() *.25);
+</script>
+		';
 	}
 ?>

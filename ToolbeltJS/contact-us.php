@@ -23,9 +23,6 @@
 	<body>
 		<?php nav("4");?>
 
-		
-		
-
 		<?php  headerImg("..\includes/images/headerImg4.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
 	
@@ -128,7 +125,7 @@
 
 			<div class="sliderButton" >Additional Information<p class="showMore">Show more</p><div class="slider">Slider</div></div>
 			
-			<p id="text">Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec sollicitudin molestie m porta.</p>
+			<p id="text">Cras ultricies ligula sed magna dictum porta. <? phoneNumber(); ?> Sed porttitor lectus nibh. Proin eget tortor risus. Donec sollicitudin molestie m porta.</p>
 			
 			
 		</div>				

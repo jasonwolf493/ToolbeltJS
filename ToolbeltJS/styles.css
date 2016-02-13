@@ -83,6 +83,10 @@ input[type=email]{
 	padding-left:10px;
 
 }
+input[type=radio]{
+	font-family: 'Open Sans', sans-serif;
+
+}
 
 
 
@@ -199,6 +203,27 @@ figure img{
 
 
 
+/*new nav*/
+.nav ul {
+	padding: 0;
+	margin: 0;
+}
+.nav li {
+	display: inline;
+	position: relative;
+}
+.childContainer {
+	z-index: 100;
+	position: absolute;
+	display: none;
+	background-color:#333;
+	left: 0px;
+	top: 55px;
+	width: 100px;
+}
+.nav li:hover ul {
+	display: block;
+}
 
 
 
@@ -210,20 +235,45 @@ figure img{
 }
 .active{
 	background-color:#cc8800;
-}
-.nav a{
 	font-family: 'Open Sans', sans-serif;
 	color:white;
 	text-decoration:none;
 	padding-top:18px;
 	text-align:center;
-	float:left;
 	display:block;
 	rgba:0,0,0,0;
+	float: left;
 	height:37px;
 	width:25%;
 	transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.navButton{
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	text-decoration:none;
+	padding-top:18px;
+	text-align:center;
+	display:block;
+	rgba:0,0,0,0;
+	float: left;
+	height:37px;
+	width:25%;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navChild{
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	text-decoration:none;
+	padding-top:18px;
+	padding-bottom:18px;
+	text-align:center;
+	display:block;
+	rgba:0,0,0,0;
+	width:100%;
+}
+
 .nav a:hover{
 	background-color:#1a1a1a;
 }

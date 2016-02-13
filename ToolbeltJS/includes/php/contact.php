@@ -1,6 +1,8 @@
 <?php
 
-
+		function phoneNumber(){
+			echo "<strong>Call us at 555.555.5555</strong>";
+		}
 		function requestForm(){
 			
 			$complete = false;
@@ -41,6 +43,15 @@
 						//echo("Email: $email");
 					}else{$error = true; echo("Please enter your email.");}
 				}
+
+				if($error == false){
+					if(isset($_POST['info']) && $_POST['info'] != ""){
+						//What to do if fname isset
+						$service = $_POST['info'];
+						//echo("First Name: $firstname ");
+					}else{$error = true; echo("Please select an option.");}
+				}
+
 				if($error == false){
 					echo"Thank you $firstname, we will contact you shortly." ;
 					$complete = true;
@@ -55,7 +66,7 @@
 					$subject = 'Information Request';
 					// message
 
-					$message = "$firstname $lastname has requested information, you can contact them at $phonenumber or $email";
+					$message = "$firstname $lastname has requested information about $service services, you can contact them at $phonenumber or $email ";
 
 					// To send HTML mail, the Content-type header must be set
 					$headers  = 'From: me <myMail@gmail.com>' . "\r\n".
@@ -84,6 +95,12 @@
 					<input type="text" placeholder="Last Name" name="lastname" required><br><br>
 					<input type="text" placeholder="Phone Number" name="phonenumber" required><br><br>
 					<input type="email" placeholder="Email" name="email" required><br><br>
+					<input type="radio" value="Maternity" name="info"> <span style="font-family: \'Open Sans\', sans-serif;">Maternity</span><br><br>
+					<input type="radio" value="Birth Stories" name="info"> <span style="font-family: \'Open Sans\', sans-serif;">Birth Stories</span><br><br>
+					<input type="radio" value="Fresh 48" name="info"> <span style="font-family: \'Open Sans\', sans-serif;">Fresh 48</span><br><br>
+					<input type="radio" value="Newborns" name="info"> <span style="font-family: \'Open Sans\', sans-serif;">Newborns</span><br><br>
+					<input type="radio" value="Pricing" name="info"> <span style="font-family: \'Open Sans\', sans-serif;">Pricing</span><br><br>
+					<input type="radio" value="Other" name="info" checked> <span style="font-family: \'Open Sans\', sans-serif;">Other</span><br><br>
 					<input class="submitButon" type="submit" name="submit" value="submit"><br><br>
 				</form>
 					';

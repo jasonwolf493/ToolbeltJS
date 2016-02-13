@@ -24,8 +24,6 @@
 
 		
 		<?php nav("2");?>
-
-		
 		
 
 		<?php  headerImg("..\includes/images/headerImg2.jpg")?>
