@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ca0152-e16f-4753-b886-beb5b0ef2b20" name="Default" comment="Test commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolbeltJS/contact-us.php" afterPath="$PROJECT_DIR$/ToolbeltJS/contact-us.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolbeltJS/gallery.php" afterPath="$PROJECT_DIR$/ToolbeltJS/gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolbeltJS/includes/php/contact.php" afterPath="$PROJECT_DIR$/ToolbeltJS/includes/php/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php" afterPath="$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolbeltJS/index.php" afterPath="$PROJECT_DIR$/ToolbeltJS/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolbeltJS/packages.php" afterPath="$PROJECT_DIR$/ToolbeltJS/packages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToolbeltJS/styles.css" afterPath="$PROJECT_DIR$/ToolbeltJS/styles.css" />
     </list>
     <ignored path="ToolbeltJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,55 +27,56 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ToolbeltJS/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ToolbeltJS/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63323784">
+            <state vertical-scroll-proportion="-19.875">
               <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.039216">
-              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.68085104">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
-                <marker date="1454994317000" expanded="true" signature="63:96" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="72:96" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="577:605" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1008:2629" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1017:1045" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1017:1440" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1169:1430" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1170:1430" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1215:1227" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1298:1310" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1378:1390" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1449:1480" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1449:1827" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1608:1817" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1836:1866" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1836:2213" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1993:2203" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="1994:2203" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2222:2255" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2222:2280" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2222:2295" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2222:2333" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2222:2605" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2385:2595" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2386:2595" placeholder="..." />
-                <marker date="1454994317000" expanded="true" signature="2638:2812" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="63:96" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="72:96" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="577:605" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1008:2629" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1017:1045" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1017:1440" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1169:1430" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1170:1430" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1215:1227" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1298:1310" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1378:1390" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1449:1480" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1449:1827" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1608:1817" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1836:1866" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1836:2213" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1993:2203" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="1994:2203" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2222:2255" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2222:2280" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2222:2295" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2222:2333" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2222:2605" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2385:2595" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2386:2595" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="2658:3027" placeholder="..." />
+                <marker date="1455330701000" expanded="true" signature="3037:3211" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -91,7 +85,7 @@
       <file leaf-file-name="contact-us.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ToolbeltJS/contact-us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.7647057">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding />
             </state>
@@ -101,7 +95,7 @@
       <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ToolbeltJS/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.882353">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
@@ -111,7 +105,7 @@
       <file leaf-file-name="packages.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ToolbeltJS/packages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.352941">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding />
             </state>
@@ -138,10 +132,10 @@
         <option value="$PROJECT_DIR$/ToolbeltJS/includes/php/contact.php" />
         <option value="$PROJECT_DIR$/ToolbeltJS/styles.css" />
         <option value="$PROJECT_DIR$/ToolbeltJS/index.php" />
-        <option value="$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php" />
         <option value="$PROJECT_DIR$/ToolbeltJS/gallery.php" />
         <option value="$PROJECT_DIR$/ToolbeltJS/packages.php" />
         <option value="$PROJECT_DIR$/ToolbeltJS/contact-us.php" />
+        <option value="$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php" />
       </list>
     </option>
   </component>
@@ -155,8 +149,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="247" />
-    <option name="y" value="39" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -185,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,6 +264,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -348,10 +341,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="39" width="1440" height="873" extended-state="1" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15833333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15833333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -396,6 +389,82 @@
     <entry file="file://$PROJECT_DIR$/ToolbeltJS/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolbeltJS/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <marker date="1455330701000" expanded="true" signature="63:96" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="72:96" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="577:605" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1008:2629" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1017:1045" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1017:1440" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1169:1430" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1170:1430" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1215:1227" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1298:1310" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1378:1390" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1449:1480" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1449:1827" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1608:1817" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1836:1866" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1836:2213" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1993:2203" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1994:2203" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2255" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2280" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2295" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2333" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2605" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2385:2595" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2386:2595" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2658:3027" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="3037:3211" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolbeltJS/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolbeltJS/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolbeltJS/packages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolbeltJS/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding />
         </state>
@@ -413,11 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#fancyIMG#0" expanded="false" />
-            <element signature="e#2976#3725#0" expanded="false" />
-            <element signature="n#!!block;n#modal#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -433,15 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1454961452000" expanded="true" signature="2528:3764" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="2929:2968" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3068:3107" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3206:3245" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3339:3378" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3471:3510" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3608:3647" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,10 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1454025653000" expanded="false" signature="54:100" placeholder="..." />
-            <marker date="1454025653000" expanded="true" signature="114:161" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,15 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.88235295">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <marker date="1454961452000" expanded="true" signature="2528:3764" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="2929:2968" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3068:3107" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3206:3245" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3339:3378" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3471:3510" placeholder="..." />
-            <marker date="1454961452000" expanded="true" signature="3608:3647" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,17 +532,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#fancyIMG#0" expanded="false" />
-            <element signature="e#2976#3725#0" expanded="false" />
-            <element signature="n#!!block;n#modal#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ToolbeltJS/contact-us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.7647057">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
@@ -509,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ToolbeltJS/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.882353">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
@@ -517,50 +553,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ToolbeltJS/packages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.352941">
+        <state vertical-scroll-proportion="0.0">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.039216">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-          <folding>
-            <marker date="1454994317000" expanded="true" signature="63:96" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="72:96" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="577:605" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1008:2629" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1017:1045" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1017:1440" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1169:1430" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1170:1430" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1215:1227" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1298:1310" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1378:1390" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1449:1480" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1449:1827" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1608:1817" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1836:1866" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1836:2213" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1993:2203" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="1994:2203" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2222:2255" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2222:2280" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2222:2295" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2222:2333" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2222:2605" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2385:2595" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2386:2595" placeholder="..." />
-            <marker date="1454994317000" expanded="true" signature="2638:2812" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ToolbeltJS/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
@@ -568,9 +569,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ToolbeltJS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63323784">
+        <state vertical-scroll-proportion="-19.875">
           <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToolbeltJS/includes/php/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68085104">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <marker date="1455330701000" expanded="true" signature="63:96" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="72:96" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="577:605" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1008:2629" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1017:1045" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1017:1440" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1169:1430" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1170:1430" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1215:1227" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1298:1310" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1378:1390" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1449:1480" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1449:1827" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1608:1817" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1836:1866" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1836:2213" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1993:2203" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="1994:2203" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2255" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2280" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2295" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2333" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2222:2605" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2385:2595" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2386:2595" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="2658:3027" placeholder="..." />
+            <marker date="1455330701000" expanded="true" signature="3037:3211" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
