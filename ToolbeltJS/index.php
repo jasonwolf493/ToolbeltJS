@@ -2,6 +2,7 @@
 <head>
     <title>Home Page | Testing Site</title>
     <?php include 'includes/php/footer.php' ?>
+	<?php include 'includes/php/logoheader.php'?>
     <?php include 'includes/php/nav.php' ?>
     <?php include 'includes/php/contact.php' ?>
     <?php include 'includes/php/headerimg.php' ?>
@@ -24,7 +25,7 @@
 <body>
 <script type="text/javascript">test();</script>
 
-
+<?php logoheader("1"); ?>
 <?php nav("1"); ?>
 
 

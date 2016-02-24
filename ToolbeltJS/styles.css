@@ -167,7 +167,8 @@ figure img{
 	height:85%;
 	background-color:rgb(255,255,255);
 	opacity:0;
-	position: absolute;
+	
+	position: fixed;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -289,6 +290,9 @@ figure img{
 	display:none;
 }
 @media screen and (max-width: 750px) {
+	.logo ul{
+		display:none;
+	}
 	.mobileNav{
 		z-index:100;
 		width:200px;

@@ -3,6 +3,7 @@
 		<title>testing</title>
 		<?php include 'includes/php/footer.php'?>
 		<?php include 'includes/php/nav.php'?>
+		<?php include 'includes/php/logoheader.php'?>
 		<?php include 'includes/php/contact.php'?>
 		<?php include 'includes/php/headerimg.php'?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +23,7 @@
 	</head>
 	<body>
 
-		
+		<?php logoheader("2"); ?>
 		<?php nav("2");?>
 		
 
