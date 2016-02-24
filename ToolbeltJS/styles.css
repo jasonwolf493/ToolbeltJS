@@ -163,8 +163,8 @@ figure img{
 #modalBox{
 	display: inline-block;
 	padding:20px;
-	width:85%;
-	height:85%;
+	width:80%;
+	height:80%;
 	background-color:rgb(255,255,255);
 	opacity:0;
 	
@@ -197,7 +197,6 @@ figure img{
 @media screen and (max-width: 840px) {
     #modalBox{
 		width:75%;
-		margin-right:25px;
 		
     }
 }
@@ -294,13 +293,13 @@ figure img{
 		display:none;
 	}
 	.mobileNav{
-		z-index:100;
+		z-index:50;
 		width:200px;
 		display:block;
 	}
 	div.mobileNav {
 		display:none;
-		z-index:100;
+		z-index:59;
 		position:absolute;
 		left:-100;
 	}

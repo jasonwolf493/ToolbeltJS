@@ -15,12 +15,11 @@ function mobileNav(){
     //if its mobile size
     if(window.innerWidth <= 750){
 
-        $(document).on("swiperight",function(){
+        $(document).off().on("swiperight",function(){
             console.log("swipedright");
             if(mobileNavOpen == false){
-
                 $("div.mobileNav").css("display", "block");
-                $("div.mobileNav").transition({x: +100}, "slow", function(){mobileNavOpen = true;})
+                $("div.mobileNav").transition({x: +100}, "fast", function(){mobileNavOpen = true;})
 
             }else{}
         });
@@ -28,7 +27,7 @@ function mobileNav(){
             console.log("swipedleft");
             if(mobileNavOpen == false){
             }else{
-                $("div.mobileNav").transition({x: -100}, "slow", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
+                $("div.mobileNav").transition({x: -100}, "fast", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
 
             }
         });
@@ -38,10 +37,10 @@ function mobileNav(){
     $("img.mobileNav").click(function(){
         if(mobileNavOpen == false){
             $("div.mobileNav").css("display", "block");
-            $("div.mobileNav").transition({x: +100}, "slow", function(){mobileNavOpen = true;})
+            $("div.mobileNav").transition({x: +100}, "fast", function(){mobileNavOpen = true;})
 
         }else{
-            $("div.mobileNav").transition({x: -100}, "slow", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
+            $("div.mobileNav").transition({x: -100}, "fast", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
 
 
         }
