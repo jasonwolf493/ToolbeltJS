@@ -56,6 +56,7 @@ h3{
 img{
 	position:relative;
     max-width: 100%;
+	box-sizing: border-box;
     height: auto;
 	
 	
@@ -288,6 +289,23 @@ figure img{
 .mobileNav{
 	display:none;
 }
+
+/*Side Box*/
+.sideBox{
+	border-left:1px solid #C3C3C3;
+	height:500px;
+	width:33%;
+	float:right;
+	box-sizing: border-box;
+    padding: 5px;
+}
+.hasSideBox{
+	width:66%;
+}
+
+
+
+/*Mobile Media query*/
 @media screen and (max-width: 750px) {
 	.logo ul{
 		display:none;
@@ -331,6 +349,15 @@ figure img{
 	p.showMore{
 		font-size:0.45em;
 	}
+	.sideBox{
+		display:none;
+	}
+	.container{
+		width:100%;
+	}
+	.hasSideBox{
+		width:100%;
+	}
 }
 
 
@@ -363,6 +390,9 @@ figure img{
 	padding:5px;
 	border-radius: 0 0 8px 8px;
 }
+div.slider{
+	#display:none;
+}
 .showMore{
 	font-size:0.75em;
 	color:white;
@@ -375,3 +405,4 @@ figure img{
 	border:3px solid white;
 	box-shadow:0 0 10px #a1a1a1;
 }
+

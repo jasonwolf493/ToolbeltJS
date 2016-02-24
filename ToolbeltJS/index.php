@@ -32,28 +32,29 @@
 <!-- 1900x325 recc -->
 <?php //headerImg("..\includes/images/headerImg.jpg") ?>
 <div id="container" style="width:70%; margin:auto;">
-
-
-    <div>
-        <h1></h1>
+<div class="sideBox"><h2>Side Box</h2><br /><p>Here you can add side content, this content will fill the page more and can drive users to other important pages of the site. However the Side Box should not show on devices with limited horizontal space like mobile devices. Learn more about <a href="packages.php"><strong>our packages</strong></a> here.</p></div>
+    <div class="hasSideBox">
+        <h1>Home Page</h1>
         <a class="toggleButton"><strong>Click To Open Modal</strong></a>
         <br><br>
         <img class="fancyIMG" width="562px" height="280px" src="includes/images/img1.jpg"></img>
         <br><br>
 
     </div>
-    <div class="sliderButton">Additional Information<p class="showMore">Show more</p>
-        <div class="slider" style="overflow: hidden">Slider ffdafdafdsafdafdf<br> fdafdsaf<br>fdsfdsfsdfsd</div>
-    </div>
+	
+	<div class="hasSideBox">
+		<div class="sliderButton">Additional Information<p class="showMore">Show more</p>
+			<div class="slider" style="overflow: hidden">Slider ffdafdafdsafdafdf<br> fdafdsaf<br>fdsfdsfsdfsd</div>
+		</div>
 
-    <div class="sliderButton">Additional Information<p class="showMore">Show more</p>
-        <div class="slider" style="overflow: hidden">Slider ffdafdafdsafdafdf<br> fdafdsaf<br>fdsfdsfsdfsd<br>fdsafdaffdsfdsfad<br>dsafdsf
-        </div>
-    </div>
+		<div class="sliderButton">Additional Information<p class="showMore">Show more</p>
+			<div class="slider" style="overflow: hidden">Slider ffdafdafdsafdafdf<br> fdafdsaf<br>fdsfdsfsdfsd<br>fdsafdaffdsfdsfad<br>dsafdsf
+			</div>
+		</div>
 
-    <p id="text">Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec
-        sollicitudin molestie m porta.</p>
-
+		<p id="text">Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec
+			sollicitudin molestie m porta.</p>
+	</div>
 
 </div>
 
