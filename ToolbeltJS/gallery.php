@@ -19,7 +19,7 @@
 		<meta name="author" content="Jason">
 	</head>
 	<body>
-		<?php  headerImg("..\includes/images/headerImg3.jpg")?>
+		<?php  headerImg("includes/images/headerImg3.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
 		<h1 class="orange">Gallery</h1>
 		<!-- Core CSS file -->

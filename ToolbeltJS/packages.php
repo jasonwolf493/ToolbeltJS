@@ -22,7 +22,7 @@
 
 	</head>
 	<body>
-		<?php headerImg("..\includes/images/headerImg2.jpg")?>
+		<?php headerImg("includes/images/headerImg2.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
 		<?php requestForm();?>
 			<div class="sliderButton">Additional Information<p class="showMore">Show more</p>

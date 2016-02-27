@@ -23,7 +23,7 @@
 </head>
 <body>
 <!-- 1900x325 recc -->
-<?php //headerImg("..\includes/images/headerImg.jpg") ?>
+<?php headerImg("includes/images/headerImg.jpg") ?>
 <div id="container" style="width:70%; margin:auto;">
 <div class="sideBox"><h2>Side Box</h2><br /><p>Here you can add side content, this content will fill the page more and can drive users to other important pages of the site. However the Side Box should not show on devices with limited horizontal space like mobile devices. Learn more about <a href="packages.php"><strong>our packages</strong></a> here.</p></div>
     <div class="hasSideBox">
@@ -56,7 +56,7 @@
 <div id="modalBox">
     <img class="innerToggleButton" src="includes/images/modalButton.png"></img>
     <p> ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli ligula sed magna
-        dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli</p>
+        dictum porta. Sed porttitor lectus some text nibh. Proin eget tortor risus. Donec solli</p>
 </div>
 <div id="bgDiv"></div>
 <?php footer(); ?>

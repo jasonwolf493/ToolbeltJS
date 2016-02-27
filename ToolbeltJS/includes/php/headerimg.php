@@ -1,7 +1,6 @@
 <?php
 function headerImg($link){
 	echo"
-	<div style='width:100%; height:auto; background-color:red;'><img style='width:100%; height:auto; background-color:#FFF;' src=$link></div>
-	";
+	<script type='text/javascript'>if($(window).width() > 750){"; echo "$('body').append('<div style=";echo '"width:100%; height:300px; background-image: url(';echo"$link"; echo'); background-repeat:no-repeat; background-attachment:fixed; background-position:top center;"></div>';echo"')";echo '}else{$(';echo"'body').append('<div style=";echo '"width:100%; height:300px; background-image: url(';echo"$link"; echo'); background-repeat:no-repeat; background-size: cover;"></div>';echo"')";echo";}</script>";
 }
 ?>

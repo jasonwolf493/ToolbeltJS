@@ -21,7 +21,7 @@
     <meta name="author" content="Jason">
 </head>
 <body>
-<?php headerImg("..\includes/images/headerImg4.jpg") ?>
+<?php headerImg("includes/images/headerImg4.jpg") ?>
 <div id="container" style="width:70%; margin:auto;">
     <?php requestForm(); ?>
     <!-- Core CSS file -->
