@@ -5,6 +5,7 @@
     <?php include 'includes/php/nav.php' ?>
     <?php include 'includes/php/contact.php' ?>
     <?php include 'includes/php/headerimg.php' ?>
+    <?php include 'includes/php/logoheader.php' ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet'
           type='text/css'>
@@ -18,18 +19,11 @@
     <meta name="description" content="Testing a modal">
     <meta name="keywords" content="Modal">
     <meta name="author" content="Jason">
-
-
 </head>
 <body>
-<?php nav("4"); ?>
-
 <?php headerImg("..\includes/images/headerImg4.jpg") ?>
 <div id="container" style="width:70%; margin:auto;">
-
     <?php requestForm(); ?>
-
-
     <!-- Core CSS file -->
     <link rel="stylesheet" href="/includes/plugins/photoswipe/dist/photoswipe.css">
 
@@ -329,7 +323,7 @@
             <!-------------------------------------------------- THE CLOSE BUTTON INSIDE THE MODAL --------------------------------------------------------!>
         $(".innerToggleButton").click(function(){
 				if(modalOpen == 0){
-					
+
 					$("#modalBox").transition({marginTop: '50px', opacity: 1}, "slow", function(){$("#modalBox").css("display", "block");});
 					$("#bgDiv").css("display", "block");
 					modalOpen = 1;
@@ -339,26 +333,26 @@
 					modalOpen = 0;
 				}
 			});
-			
-			
-			
-			
+
+
+
+
 			<!-------------------------------------------------- ESCAPE BUTTON --------------------------------------------------------!>
-			$(document.body).keydown(function(event){ 
+			$(document.body).keydown(function(event){
 				if(modalOpen == 1){
 					if(event.which == 27){
 						$("#modalBox").transition({marginTop: '-50px', opacity: 0}, "slow", function(){$("#modalBox").css("display", "none");});
 						$("#bgDiv").css("display", "none");
 						modalOpen = 0;
 					}
-				
-				
+
+
 				}
 
 			});
-			
-			
-			<!-------------------------------------------------- THE BUTTON TO TOGGLE THE MODAL --------------------------------------------------------!>	
+
+
+			<!-------------------------------------------------- THE BUTTON TO TOGGLE THE MODAL --------------------------------------------------------!>
 			$(".toggleButton").click(function(){
 				if(modalOpen == 0){
 					$("#modalBox").css("display", "block");
@@ -379,6 +373,6 @@
 
 		});
 </script>
-
-
+<?php nav("4"); ?>
+<?php logoheader("4"); ?>
 </html>

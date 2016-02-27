@@ -2,7 +2,7 @@
 	<head>
 		<title>testing</title>
     <?php include 'includes/php/footer.php' ?>
-	<?php include 'includes/php/logoheader.php'?>
+		<?php include 'includes/php/logoheader.php' ?>
     <?php include 'includes/php/nav.php' ?>
     <?php include 'includes/php/contact.php' ?>
     <?php include 'includes/php/headerimg.php' ?>
@@ -19,22 +19,12 @@
 		<meta name="keywords" content="Modal">
 		<meta name="author" content="Jason">
 
-		
+
 	</head>
 	<body>
-
-		<?php logoheader("2"); ?>
-		<?php nav("2");?>
-		
-
-		<?php  headerImg("..\includes/images/headerImg2.jpg")?>
-
+		<?php headerImg("..\includes/images/headerImg2.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
-
 		<?php requestForm();?>
-		
-		
-		
 			<div class="sliderButton">Additional Information<p class="showMore">Show more</p>
 				<div class="slider" style="overflow: hidden">This is a test slider you can use it to show additional info about something<br> fdafdsaf<br>fdsfdsfsdfsd</div>
 			</div>
@@ -43,42 +33,33 @@
 				<a class="toggleButton"><strong>Open Modal</strong></a>
 				<br><br>
 				<a class="toggleButton"><strong>Open Modal</strong></a>
-				<br>				
+				<br>
 				<img class="fancyIMG" width="562px" height="280px" src="includes/images/img1.jpg"></img>
 				<br><br>
 				<img class="fancyIMG" width="562px" height="280px" src="includes/images/img1.jpg"></img>
-
-			
 			</div>
-			
-
-			
-			
 			<p id="text">Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec sollicitudin molestie m porta.</p>
-			
-			
-		</div>				
-		
-			
-			
-			
-			
+		</div>
+
+
+
+
 		<br><br><br>
 
-		
+
 			<div id="modalBox">
 				<img class="innerToggleButton" src="includes/images/modalButton.png"></img>
 				<p> ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli</p>
-		
+
 			</div>
 		<div id="bgDiv"></div>
 		<?php footer();?>
 	</body>
-	
 
-		
-		
-		<script src="/includes/js/index.js"></script>
+
+
+
+<script src="/includes/js/index.js"></script>
 <script>
 
 
@@ -120,8 +101,8 @@
         slider();
         modal();
 
-
     });
 </script>
-
+<?php nav("2");?>
+<?php logoheader("2"); ?>
 </html>

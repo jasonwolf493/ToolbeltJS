@@ -50,12 +50,12 @@ function mobileNav(){
 mobileNav();
 
 
-    bodyHeight = $("body").css("height");
-    $("#bgDiv").css("height", bodyHeight);
+bodyHeight = $("body").css("height");
+$("#bgDiv").css("height", bodyHeight);
 
-    //FANCY IMG
-    function fancyIMG() {
-    imgOpen = 0;
+//FANCY IMG
+function fancyIMG() {
+imgOpen = 0;
     $(".fancyIMG").click(function () {
         if (imgOpen == 0) {
             //$("#fancyIMG").css("margin", "auto");
@@ -98,8 +98,7 @@ mobileNav();
     })
 
 }
-
-    fancyIMG();
+fancyIMG();
     /*VERSION 1.0*/
     /*
      notSet = true;
@@ -211,3 +210,13 @@ slider();
     modal();
 
 
+//-------------------------------------------------------viewport Checker---------------------------------------------------------
+function viewportAnimation(element){
+  $( window ).scroll(function(){
+    if($(element).visible()){
+      console.log($(element).visible());
+      $(element).transition({marginLeft: '0', opacity: 1}, 2000, 'easeOutQuart',function () {
+      });
+    }
+  });
+}

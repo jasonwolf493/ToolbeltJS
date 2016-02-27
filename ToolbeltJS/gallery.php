@@ -5,6 +5,7 @@
 		<?php include 'includes/php/nav.php'?>
 		<?php include 'includes/php/contact.php'?>
 		<?php include 'includes/php/headerimg.php'?>
+		<?php include 'includes/php/logoheader.php' ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
@@ -16,43 +17,23 @@
 		<meta name="description" content="Testing a modal">
 		<meta name="keywords" content="Modal">
 		<meta name="author" content="Jason">
-
-		
 	</head>
 	<body>
-		<?php nav("3");?>
-
-
 		<?php  headerImg("..\includes/images/headerImg3.jpg")?>
 		<div id="container" style="width:70%; margin:auto;">
 		<h1 class="orange">Gallery</h1>
-
-		
-
-		
-		
-		
-		
 		<!-- Core CSS file -->
-<link rel="stylesheet" href="/includes/plugins/photoswipe/dist/photoswipe.css"> 
-
+<link rel="stylesheet" href="/includes/plugins/photoswipe/dist/photoswipe.css">
 <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
      In the folder of skin CSS file there are also:
-     - .png and .svg icons sprite, 
+     - .png and .svg icons sprite,
      - preloader.gif (for browsers that do not support CSS animations) -->
-<link rel="stylesheet" href="/includes/plugins/photoswipe/dist/default-skin/default-skin.css"> 
-
+<link rel="stylesheet" href="/includes/plugins/photoswipe/dist/default-skin/default-skin.css">
 <!-- Core JS file -->
-<script src="/includes/plugins/photoswipe/dist/photoswipe.min.js"></script> 
-
+<script src="/includes/plugins/photoswipe/dist/photoswipe.min.js"></script>
 <!-- UI JS file -->
-<script src="/includes/plugins/photoswipe/dist/photoswipe-ui-default.min.js"></script> 
-		
-		
-		
-		
-		
-		
+<script src="/includes/plugins/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+
 <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -60,7 +41,7 @@
           <img src="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_m.jpg" itemprop="thumbnail" alt="Image description"  class="small"/>
       </a>
                                           <figcaption itemprop="caption description">Image caption  1</figcaption>
-                                          
+
     </figure>
 
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -94,7 +75,7 @@
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
+    <!-- Background of PhotoSwipe.
          It's a separate element, as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
@@ -138,7 +119,7 @@
             </div>
 
             <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
+                <div class="pswp__share-tooltip"></div>
             </div>
 
             <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
@@ -158,58 +139,58 @@
 
   </div>
 
-		
-		
-			
-			
-			
-			
+
+
+
+
+
+
 		<br><br><br>
 
-		
+
 			<div id="modalBox">
 				<img class="innerToggleButton" src="includes/images/modalButton.png"></img>
 				<p> ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli ligula sed magna dictum porta. Sed porttitor lectus nibh. Proin eget tortor risus. Donec solli</p>
-		
+
 			</div>
 		<div id="bgDiv"></div>
 		<?php footer();?>
 
 	</body>
-	
-	
+
+
 	<script src="/includes/js/index.js"></script>
 	<script>
-	
-	
-	
-	
-	
+
+
+
+
+
 		//WAIT UNTIL THE DOCUMENT IS READY TO START ANY JS OR JQ
 		$(document).ready(function(){
 
-					
 
-			
-			
-			
+
+
+
+
 			function mobileNav(){
 				mobileNavOpen = false;
-				
-				
-				
-				
+
+
+
+
 			//GESTURE WORK
 			//if its mobile size
 				if(window.innerWidth <= 750){
-					
+
 					$(document).on("swiperight",function(){
 						console.log("swipedright");
 						if(mobileNavOpen == false){
-							
+
 							$("div.mobileNav").css("display", "block");
 							$("div.mobileNav").transition({x: +100}, "slow", function(){mobileNavOpen = true;})
-							
+
 						}else{}
 					});
 						$(document).on("swipeleft",function(){
@@ -217,7 +198,7 @@
 							if(mobileNavOpen == false){
 							}else{
 								$("div.mobileNav").transition({x: -100}, "slow", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
-								
+
 							}
 						});
 
@@ -227,24 +208,24 @@
 					if(mobileNavOpen == false){
 						$("div.mobileNav").css("display", "block");
 						$("div.mobileNav").transition({x: +100}, "slow", function(){mobileNavOpen = true;})
-						
+
 					}else{
 						$("div.mobileNav").transition({x: -100}, "slow", function(){$("div.mobileNav").css("display", "none");mobileNavOpen = false;})
-						
-						
+
+
 					}
-					
+
 				})
 			}
 			mobileNav();
-			
-			
-			
-			
-		
+
+
+
+
+
 			bodyHeight = $("body").css("height");
 			$("#bgDiv").css("height", bodyHeight);
-		
+
 			//FANCY IMG
 			function fancyIMG(){
 				imgOpen = 0;
@@ -254,24 +235,24 @@
 						windowWidth = $("#container").outerWidth();
 						imgWidth = $(this).outerWidth();
 						margin = (windowWidth - imgWidth) / 2;
-						
+
 						pos = $(this).position();
 						console.log(pos.left);
 						posLeft = pos.left + margin;
-						
+
 						console.log("imgw: "+imgWidth);
 						console.log("ww: "+windowWidth);
 						console.log("margin: "+margin);
 						imgMargin = $(this).css("margin");
 						//$("#fancyIMG").css("margin", "initial");
 						console.log(imgMargin);
-						
-						
+
+
 						$(this).css("display", "block");
 						$(this).css("z-index", "65");
 						//$(this).transition({ rotate: '45deg' });
 						$(this).transition({x: +margin}, "slow", function(){$(this).transition({scale: '1.3'}, "slow", function(){});});
-						
+
 						$("#bgDiv").css("display", "block");
 						imgOpen = 1;
 					}else{
@@ -282,7 +263,7 @@
 						imgOpen = 0;
 					}
 				})
-				
+
 			}fancyIMG();
 			/*VERSION 1.0*/
 			/*
@@ -309,12 +290,12 @@
 					height: originalHeight,
 					width: originalWidth}, "fast")
 			});
-			
+
 			*/
-			
-			
-			
-			
+
+
+
+
 			//SLIDER
 			$(".slider").transition({scale: 0.0 }, 'fast');
 			sliderOpen = false;
@@ -327,23 +308,23 @@
 					$(".slider").transition({scale: 0.0 }, 'fast', function(){$(".slider").css("display","none");});
 					$(this).find(".slider").transition({scale: 0.0 }, 'fast', function(){$(this).find(".slider").css("display","none");});
 					sliderOpen = false;
-				}		
+				}
 			});
-			
-			
-			
-			
+
+
+
+
 			//CREATE THE MODAL FUNCTION
 			function modal(){
 				// THE VARIABLE TO CHECK IF THE MODAL IS OPEN
 				var modalOpen = 0;
-				
+
 				//HIDES THE MODALBOX WHEN THE FUNCTION IS RAN
-				$("#modalBox").hide();				
+				$("#modalBox").hide();
 			<!-------------------------------------------------- THE CLOSE BUTTON INSIDE THE MODAL --------------------------------------------------------!>
 			$(".innerToggleButton").click(function(){
 				if(modalOpen == 0){
-					
+
 					$("#modalBox").transition({marginTop: '50px', opacity: 1}, "slow", function(){$("#modalBox").css("display", "block");});
 					$("#bgDiv").css("display", "block");
 					modalOpen = 1;
@@ -353,26 +334,26 @@
 					modalOpen = 0;
 				}
 			});
-			
-			
-			
-			
+
+
+
+
 			<!-------------------------------------------------- ESCAPE BUTTON --------------------------------------------------------!>
-			$(document.body).keydown(function(event){ 
+			$(document.body).keydown(function(event){
 				if(modalOpen == 1){
 					if(event.which == 27){
 						$("#modalBox").transition({marginTop: '-50px', opacity: 0}, "slow", function(){$("#modalBox").css("display", "none");});
 						$("#bgDiv").css("display", "none");
 						modalOpen = 0;
 					}
-				
-				
+
+
 				}
 
 			});
-			
-			
-			<!-------------------------------------------------- THE BUTTON TO TOGGLE THE MODAL --------------------------------------------------------!>	
+
+
+			<!-------------------------------------------------- THE BUTTON TO TOGGLE THE MODAL --------------------------------------------------------!>
 			$(".toggleButton").click(function(){
 				if(modalOpen == 0){
 					$("#modalBox").css("display", "block");
@@ -393,7 +374,6 @@
 
 		});
 	</script>
-			
-		
-
+	<?php nav("3");?>
+	<?php logoheader("3"); ?>
 </html>
