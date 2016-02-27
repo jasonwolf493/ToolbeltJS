@@ -54,48 +54,58 @@ bodyHeight = $("body").css("height");
 $("#bgDiv").css("height", bodyHeight);
 
 //FANCY IMG
+
 function fancyIMG() {
 imgOpen = 0;
-    $(".fancyIMG").click(function () {
-        if (imgOpen == 0) {
-            //$("#fancyIMG").css("margin", "auto");
-            windowWidth = $("#container").outerWidth();
-            imgWidth = $(this).outerWidth();
-            margin = (windowWidth - imgWidth) / 2;
+  $(".fancyIMG").click(function () {
+    if($(".fancyimg").css('transition')=="all 0s ease 0s"){console.log("not animating")}else{console.log("animating")}
+    if (imgOpen == 0 ) {
+      if($(".fancyimg").css('transition')=="all 0s ease 0s"){
+        //$("#fancyIMG").css("margin", "auto");
+        windowWidth = $("#container").outerWidth();
+        imgWidth = $(this).outerWidth();
+        margin = (windowWidth - imgWidth) / 2;
 
-            pos = $(this).position();
-            console.log(pos.left);
-            posLeft = pos.left + margin;
+        pos = $(this).position();
+        //console.log(pos.left);
+        posLeft = pos.left + margin;
 
-            console.log("imgw: " + imgWidth);
-            console.log("ww: " + windowWidth);
-            console.log("margin: " + margin);
-            imgMargin = $(this).css("margin");
-            //$("#fancyIMG").css("margin", "initial");
-            console.log(imgMargin);
+        //console.log("imgw: " + imgWidth);
+        //console.log("ww: " + windowWidth);
+        //console.log("margin: " + margin);
+        imgMargin = $(this).css("margin");
+        //$("#fancyIMG").css("margin", "initial");
+        //console.log(imgMargin);
 
 
-            $(this).css("display", "block");
-            $(this).css("z-index", "65");
-            //$(this).transition({ rotate: '45deg' });
-            $(this).transition({x: +margin}, "slow", function () {
-                $(this).transition({scale: '1.3'}, "slow", function () {
-                });
-            });
+        $(this).css("display", "block");
+        $(this).css("z-index", "65");
+        //$(this).transition({ rotate: '45deg' });
+        $(this).transition({x: +margin}, "slow", function () {
+          $(this).transition({scale: '1.3'}, "slow", function () {
+          });
+        });
 
-            $("#bgDiv").css("display", "block");
-            imgOpen = 1;
-        } else {
-            $("#bgDiv").css("display", "none");
-            $(this).css("z-index", "55");
-            $(this).transition({scale: '1.0'}, "slow", function () {
-                $(".fancyIMG").transition({x: 0}, "slow", function () {
-                });
-            });
-            //$("#fancyIMG").transition({scale: '1.0'}, "slow", function(){});
-            imgOpen = 0;
-        }
-    })
+
+        $("#bgDiv").css("display", "block");
+        imgOpen = 1;
+      }else{console.log("animating")}
+
+
+    }else {
+      if($(".fancyimg").css('transition')=="all 0s ease 0s"){
+        $("#bgDiv").css("display", "none");
+        $(this).css("z-index", "55");
+        $(this).transition({scale: '1.0'}, "slow", function () {
+          $(".fancyIMG").transition({x: 0}, "slow", function () {
+          });
+        });
+        //$("#fancyIMG").transition({scale: '1.0'}, "slow", function(){});
+        imgOpen = 0;
+      }else{console.log("animating")}
+
+    }
+  })
 
 }
 fancyIMG();

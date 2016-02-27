@@ -25,7 +25,7 @@
 <!-- 1900x325 recc -->
 <?php headerImg("includes/images/headerImg.jpg") ?>
 <div id="container" style="width:70%; margin:auto;">
-<div class="sideBox"><h2>Side Box</h2><br /><p>Here you can add side content, this content will fill the page more and can drive users to other important pages of the site. However the Side Box should not show on devices with limited horizontal space like mobile devices. Learn more about <a href="packages.php"><strong>our packages</strong></a> here.</p></div>
+<div class="sideBox viewportAnimate" style="opacity:0;"><h2>Side Box</h2><br /><p>Here you can add side content, this content will fill the page more and can drive users to other important pages of the site. However the Side Box should not show on devices with limited horizontal space like mobile devices. Learn more about <a href="packages.php"><strong>our packages</strong></a> here.</p></div>
     <div class="hasSideBox">
         <h1>Home Page</h1>
         <a class="toggleButton"><strong>Click To Open Modal</strong></a>
