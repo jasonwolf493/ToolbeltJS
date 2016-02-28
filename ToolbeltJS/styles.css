@@ -72,6 +72,9 @@ input[type=submit]{
 	font-size:1.25em;
 	padding-bottom:5px;
 }
+input[type=submit]:hover{
+	cursor: pointer;
+}
 input[type=text]{
 	width:250px;
 	height:30px;
@@ -87,6 +90,12 @@ input[type=email]{
 input[type=radio]{
 	font-family: 'Open Sans', sans-serif;
 
+}
+label:hover{
+	cursor: pointer;
+}
+input[type=radio]:hover{
+	cursor: pointer;
 }
 
 
@@ -378,6 +387,9 @@ figure img{
 	color:white;
 	border-radius:8px;
 }
+.sliderButton:hover{
+	cursor: pointer;
+}
 .slider{
 
 	overflow: hidden;
@@ -395,6 +407,9 @@ figure img{
 }
 div.slider{
 	#display:none;
+}
+div.slider:hover {
+    cursor: initial;
 }
 .showMore{
 	font-size:0.75em;
