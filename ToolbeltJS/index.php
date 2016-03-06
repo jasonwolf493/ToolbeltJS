@@ -7,8 +7,8 @@
     <?php include 'includes/php/contact.php' ?>
     <?php include 'includes/php/headerimg.php' ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet'
-          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="jquery.transit.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
 <!-- 1900x325 recc -->
 <?php headerImg("includes/images/headerImg.jpg") ?>
-<div id="container" style="width:70%; margin:auto;">
+<div id="container">
 <div class="sideBox viewportAnimate" style="opacity:0;"><h2>Side Box</h2><br /><p>Here you can add side content, this content will fill the page more and can drive users to other important pages of the site. However the Side Box should not show on devices with limited horizontal space like mobile devices. Learn more about <a href="packages.php"><strong>our packages</strong></a> here.</p></div>
     <div class="hasSideBox">
         <h1>Home Page</h1>
