@@ -8,8 +8,8 @@
 	}
 }
 @font-face {
-    font-family: adamCG;
-    src: url(includes/fonts/ADAMCG.otf);
+	font-family: adamCG;
+	src: url(includes/fonts/ADAMCG.otf);
 }
 
 html{
@@ -68,11 +68,9 @@ h3{
 }
 img{
 	position:relative;
-    max-width: 100%;
+	max-width: 100%;
 	box-sizing: border-box;
-    height: auto;
-
-
+	height: auto;
 }
 /*---------------------Form Styles-----------------------*/
 input[type=submit]{
@@ -136,16 +134,16 @@ figure img{
 	height:160px;
 }
 .my-gallery {
-    display: inline-block;
-    width: 425px;
+	display: inline-block;
+	width: 425px;
 }
 @media screen and (max-width: 420px) {
-    .my-gallery{
+	.my-gallery{
 		display:block;
 		width:75%;
 		margin:auto;
 
-    }
+	}
 	figure img{
 		max-height:100%;
 		margin-top:5px;
@@ -183,7 +181,7 @@ figure img{
 
 
 
-#modalBox{
+#modalBox, #roadBlockBox{
 	display: inline-block;
 	padding:20px;
 	width:80%;
@@ -203,25 +201,24 @@ figure img{
 	z-index: 999;
 	border-radius:8px;
 }
+
 .opacity{
 	background-color:rgba(0,0,0,0.5);
 }
 .toggleButton{
 
 }
-.innerToggleButton{
+.innerToggleButton, .roadBlockinnerToggleButton{
 	margin-left:100%;
-	/*text-align:right;*/
 	position:relative;
-	/*left:0;*/
 	top:-40px;
-
 }
+
 @media screen and (max-width: 840px) {
-    #modalBox{
+	#modalBox{
 		width:75%;
 
-    }
+	}
 }
 
 
@@ -319,7 +316,7 @@ figure img{
 	width:33%;
 	float:right;
 	box-sizing: border-box;
-    padding: 5px;
+	padding: 5px;
 }
 .hasSideBox{
 	width:66%;
@@ -350,7 +347,7 @@ figure img{
 	color:black;
 	background-color:#fff;
 	border-style: solid;
-  border-color: gray;
+	border-color: gray;
 	border-width:1px;
 	margin-top:5px;
 	display: block;
@@ -361,7 +358,7 @@ div.slider{
 	#display:none;
 }
 div.slider:hover {
-    cursor: initial;
+	cursor: initial;
 }
 .showMore{
 	font-size:0.75em;
